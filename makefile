@@ -7,7 +7,7 @@ ROOT=
 #
 # The destination directory for the "sh" and "jsh" binaries.
 #
-SV3BIN=/usr/5bin
+SV3BIN=/usr/local/bin
 
 #
 # Location for manual pages (with man1 below).
@@ -23,7 +23,7 @@ MANDIR=/usr/share/man/5man
 #
 # A BSD-compatible install command.
 #
-UCBINST=/usr/ucb/install
+UCBINST=/usr/bin/install
 
 #
 # The strip command that is used at installation time.

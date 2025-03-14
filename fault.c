@@ -44,7 +44,7 @@
 #include	<string.h>
 
 static	void (*psig0_func)() = SIG_ERR;	/* previous signal handler for signal 0 */
-static	char sigsegv_stack[SIGSTKSZ];
+static	char sigsegv_stack[8192];
 
 static BOOL sleeping = 0;
 static unsigned char *trapcom[MAXTRAP]; /* array of actions, one per signal */
